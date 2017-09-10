@@ -1,0 +1,6 @@
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\Tp 1\bin\Debug\Tp 1.exe.config
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\Tp 1\bin\Debug\Tp 1.exe
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\Tp 1\bin\Debug\Tp 1.pdb
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\Tp 1\obj\Debug\Tp 1.csprojResolveAssemblyReference.cache
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\Tp 1\obj\Debug\Tp 1.exe
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\Tp 1\obj\Debug\Tp 1.pdb

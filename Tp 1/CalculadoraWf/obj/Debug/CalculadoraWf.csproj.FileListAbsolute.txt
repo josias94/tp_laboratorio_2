@@ -1,0 +1,11 @@
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\bin\Debug\CalculadoraWf.exe.config
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\bin\Debug\CalculadoraWf.exe
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\bin\Debug\CalculadoraWf.pdb
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\bin\Debug\Tp 1.exe
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\bin\Debug\Tp 1.pdb
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\obj\Debug\CalculadoraWf.csprojResolveAssemblyReference.cache
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\obj\Debug\CalculadoraWf.Calculadora.resources
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\obj\Debug\CalculadoraWf.Properties.Resources.resources
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\obj\Debug\CalculadoraWf.csproj.GenerateResource.Cache
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\obj\Debug\CalculadoraWf.exe
+C:\Users\josia_000\Documents\Visual Studio 2013\Projects\Tp 1\CalculadoraWf\obj\Debug\CalculadoraWf.pdb
