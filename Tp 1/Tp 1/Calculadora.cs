@@ -14,7 +14,7 @@ namespace Tp_1
         /// <param name="numeroUno">primer operando</param>
         /// <param name="numeroDos">segundo operando</param>
         /// <param name="operador">String operador</param>
-        /// <returns>[0]en caso de no poder realixzar la operador o el resultado en caso favorable</returns>
+        /// <returns>[0]en caso de no poder realizar la operador o el resultado en caso favorable</returns>
         public static double Operar (Numero numeroUno, Numero numeroDos,string operador)
         {
             double resultado = 0;

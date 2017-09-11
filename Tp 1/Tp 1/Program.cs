@@ -10,9 +10,7 @@ namespace Tp_1
     {
         static void Main(string[] args)
         {
-            Numero numero = new Numero();
-            Console.WriteLine(numero.GetNumero());
-            Console.ReadLine();
+            
         }
     }
 }

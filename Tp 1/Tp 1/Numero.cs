@@ -20,9 +20,9 @@ namespace Tp_1
             SetNumero(numero);
         }
 
-        public Numero(double numero)
+        public Numero(double numero):this(numero.ToString())
         {
-            this._numero = numero;
+            
         }
         
         /// <summary>

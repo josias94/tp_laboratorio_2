@@ -45,6 +45,22 @@ namespace CalculadoraWf
         //CC(limpiar)
         private void button1_Click(object sender, EventArgs e)
         {
+            limpiar();
+        }
+        //igual
+        private void button2_Click(object sender, EventArgs e)
+        {
+            resultado = new Numero(Tp_1.Calculadora.Operar(numeroUno,numeroDos,operador));
+            this.label1.Text = (resultado.GetNumero()).ToString();
+        }
+
+        private void Calculadora_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void limpiar()
+        {
             this.textBox1.Text = " ";
             this.textBox2.Text = " ";
             this.label1.Text = "0";
@@ -54,11 +70,6 @@ namespace CalculadoraWf
             resultado = new Numero();
             operador = "+";
         }
-        //igual
-        private void button2_Click(object sender, EventArgs e)
-        {
-            resultado = new Numero(Tp_1.Calculadora.Operar(numeroUno,numeroDos,operador));
-            this.label1.Text = (resultado.GetNumero()).ToString();
-        }
     }
+ 
 }

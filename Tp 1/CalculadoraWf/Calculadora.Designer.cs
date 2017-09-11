@@ -66,6 +66,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(51, 21);
             this.comboBox1.TabIndex = 2;
+            this.comboBox1.Text = "+";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox2
@@ -109,6 +110,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Calculadora";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Calculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
