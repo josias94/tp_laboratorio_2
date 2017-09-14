@@ -16,7 +16,7 @@ namespace CalculadoraWf
         Numero numeroUno = new Numero();
         Numero numeroDos = new Numero();
         Numero resultado = new Numero();
-        string operador;
+        string operador= "+";
 
         public Calculadora()
         {
@@ -50,6 +50,9 @@ namespace CalculadoraWf
         //igual
         private void button2_Click(object sender, EventArgs e)
         {
+            this.textBox1.Text = numeroUno.GetNumero().ToString();
+            this.textBox2.Text = numeroDos.GetNumero().ToString();
+            this.comboBox1.Text = operador;
             resultado = new Numero(Tp_1.Calculadora.Operar(numeroUno,numeroDos,operador));
             this.label1.Text = (resultado.GetNumero()).ToString();
         }
@@ -65,9 +68,6 @@ namespace CalculadoraWf
             this.textBox2.Text = " ";
             this.label1.Text = "0";
             this.comboBox1.Text = " ";
-            numeroUno = new Numero();
-            numeroDos = new Numero();
-            resultado = new Numero();
             operador = "+";
         }
     }
