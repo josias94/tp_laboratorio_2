@@ -31,16 +31,19 @@ namespace CalculadoraWf
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             numeroUno = new Numero(this.textBox1.Text);
+            this.textBox1.Text = numeroUno.GetNumero().ToString();
         }
         //numero2
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             numeroDos = new Numero(this.textBox2.Text);
+            this.textBox2.Text = numeroDos.GetNumero().ToString();
         }
         //operador
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             operador = this.comboBox1.Text;
+            
         }
         //CC(limpiar)
         private void button1_Click(object sender, EventArgs e)
@@ -50,11 +53,9 @@ namespace CalculadoraWf
         //igual
         private void button2_Click(object sender, EventArgs e)
         {
-            this.textBox1.Text = numeroUno.GetNumero().ToString();
-            this.textBox2.Text = numeroDos.GetNumero().ToString();
             this.comboBox1.Text = operador;
             resultado = new Numero(Tp_1.Calculadora.Operar(numeroUno,numeroDos,operador));
-            this.label1.Text = (resultado.GetNumero()).ToString();
+            this.label1.Text = resultado.GetNumero().ToString();
         }
 
         private void Calculadora_Load(object sender, EventArgs e)
@@ -67,8 +68,7 @@ namespace CalculadoraWf
             this.textBox1.Text = " ";
             this.textBox2.Text = " ";
             this.label1.Text = "0";
-            this.comboBox1.Text = " ";
-            operador = "+";
+            this.comboBox1.Text = "+";  
         }
     }
  
